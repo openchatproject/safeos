@@ -1,0 +1,56 @@
+[submodule "programs/snapshot"]
+	path = programs/snapshot
+	url = https://github.com/EOSIO/genesis.git
+[submodule "contracts/musl/upstream"]
+	path = contracts/musl/upstream
+	url = https://github.com/EOSIO/musl.git
+	branch = eosio
+[submodule "contracts/libc++/upstream"]
+	path = contracts/libc++/upstream
+	url = https://github.com/EOSIO/libcxx.git
+	branch = eosio
+[submodule "externals/binaryen"]
+	path = externals/binaryen
+	url = https://github.com/EOSIO/binaryen
+	branch = eosio
+[submodule "libraries/softfloat"]
+	path = libraries/softfloat
+	url = https://github.com/EOSIO/berkeley-softfloat-3
+[submodule "externals/magic_get"]
+	path = externals/magic_get
+	url = https://github.com/EOSIO/magic_get
+[submodule "programs/goeos/src/github.com/mitchellh/panicwrap"]
+	path = programs/goeos/src/github.com/mitchellh/panicwrap
+	url = https://github.com/mitchellh/panicwrap
+[submodule "programs/goeos/src/github.com/kardianos/osext"]
+	path = programs/goeos/src/github.com/kardianos/osext
+	url = https://github.com/kardianos/osext
+[submodule "libraries/chainbase"]
+	path = libraries/chainbase
+	url = https://github.com/eosio/chainbase
+[submodule "libraries/appbase"]
+	path = libraries/appbase
+	url = https://github.com/eosio/appbase
+[submodule "libraries/fc"]
+	path = libraries/fc
+	url = https://github.com/eosio/fc
+[submodule "cmake/polly"]
+	path = cmake/polly
+	url = https://github.com/ruslo/polly
+[submodule "libraries/vm/vm_py"]
+	path = libraries/vm/vm_py
+	url = https://github.com/micropython/micropython
+[submodule "libraries/python"]
+	path = externals/python
+	url = https://github.com/python/cpython
+	branch = v3.7.0-cmake
+[submodule "libraries/ethereum"]
+	path = externals/ethereum
+	url = https://github.com/ethereum/aleth
+	branch = develop-eos
+[submodule "externals/lua_sandbox"]
+	path = externals/lua_sandbox
+	url = https://github.com/mozilla-services/lua_sandbox
+[submodule "libraries/wabt"]
+	path = libraries/wabt
+	url = http://github.com/EOSIO/wabt
